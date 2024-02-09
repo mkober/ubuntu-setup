@@ -19,6 +19,7 @@ mkdir ~/Trash
 ./dotfiles.sh
 ./java.sh
 ./terminal.sh
+./boot.sh
 
 sudo apt autoremove
 

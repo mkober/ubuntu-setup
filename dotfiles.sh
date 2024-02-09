@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git clone https://github.com/mkober/dotfiles ~/repos/dotfiles
+git clone https://github.com/mkober/dotfiles ~/Repos/dotfiles
 
 ln -s ~/Repos/dotfiles/.tmux.conf ~/.tmux.conf
 ln -s ~/Repos/dotfiles/.fonts ~/.fonts
