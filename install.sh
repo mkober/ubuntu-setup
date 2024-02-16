@@ -21,6 +21,8 @@ mkdir ~/Trash
 ./terminal.sh
 ./brave.sh
 ./ansible.sh
+./terraform.sh
+./kubernetes.sh
 ./boot.sh
 
 sudo apt autoremove
