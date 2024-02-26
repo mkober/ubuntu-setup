@@ -18,6 +18,7 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
 # Post install to setup docker user/group to run docker without sudo
-sudo groupadd docker
-sudo usermod -aG docker $USER
-newgrp docker
+# Breaks install when group exists
+#sudo groupadd docker
+#sudo usermod -aG docker $USER
+#newgrp docker
