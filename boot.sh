@@ -2,7 +2,7 @@
 
 sudo apt-add-repository ppa:rodsmith/refind
 sudo apt update
-sudo apt install refind
+sudo apt install -y refind
 
 cd /boot/efi/EFI/refind
 sudo mkdir themes

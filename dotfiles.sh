@@ -7,8 +7,10 @@ ln -s ~/Repos/dotfiles/.fonts ~/.fonts
 ln -s ~/Repos/dotfiles/.bash_aliases ~/.bash_aliases
 
 rm -rf ~/.config/doom
+
 ln -s ~/Repos/dotfiles/.config/doom ~/.config/doom
 ln -s ~/Repos/dotfiles/.config/nvim ~/.config/nvim
+ln -s ~/Repos/dotfiles/.config/alacritty ~/.config/alacritty
 
 ln -s ~/Repos/dotfiles/.themes ~/.themes
 

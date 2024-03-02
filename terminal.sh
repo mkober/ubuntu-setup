@@ -1,4 +1,4 @@
-sudo apt-get install dconf-cli
+sudo apt install -y dconf-cli
 
 cd ~/
 
@@ -7,4 +7,5 @@ cd gnome-terminal
 
 ./install.sh
 
-mv ~/gnome-terminal Trash
+cd ~/
+mv gnome-terminal Trash
