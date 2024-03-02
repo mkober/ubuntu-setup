@@ -9,3 +9,12 @@ cd gnome-terminal
 
 cd ~/
 mv gnome-terminal Trash
+
+sudo snap install alacritty
+
+sudo echo -e "#!/bin/sh\n\n/usr/bin/snap run alacritty" > /usr/bin/start-alacritty
+sudo chown root:root /usr/bin/start-alacritty
+sudo chmod --reference=/usr/bin/ls /usr/bin/start-alacritty
+
+sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/bin/start-alacritty 50
+sudo update-alternatives --config x-terminal-emulator
