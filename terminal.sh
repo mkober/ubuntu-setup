@@ -12,7 +12,7 @@ mv gnome-terminal Trash
 
 sudo snap install alacritty
 
-sudo echo -e "#!/bin/sh\n\n/usr/bin/snap run alacritty" > /usr/bin/start-alacritty
+echo -e '#!/bin/sh\n\n/usr/bin/snap run alacritty' | sudo tee -a /usr/bin/start-alacritty
 sudo chown root:root /usr/bin/start-alacritty
 sudo chmod --reference=/usr/bin/ls /usr/bin/start-alacritty
 
