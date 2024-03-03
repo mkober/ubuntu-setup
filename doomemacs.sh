@@ -9,11 +9,12 @@ cd emacs-29.0.92
 ./autogen.sh
 ./configure --with-pgtk
 make -j8
+mv aws-sam Trash
 sudo make install
 
 cd ~/
-mv emacs-29.0.92 trash
-mv emacs-29.0.92.tar.gz trash
+mv emacs-29.0.92 Trash
+mv emacs-29.0.92.tar.gz Trash
 
 cd ~/
 rm -rf ~/.config/emacs
