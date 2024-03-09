@@ -1,3 +1,5 @@
+#!/bin/bash
+
 sudo apt install -y dconf-cli
 
 cd ~/
